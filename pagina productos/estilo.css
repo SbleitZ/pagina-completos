@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+}
+.flex-container{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+body{
+    margin: 0px;
+}
+
+@media screen and (min-width: 1200px){
+    section h1{
+        margin-left: 285px;
+    }
+    
+}

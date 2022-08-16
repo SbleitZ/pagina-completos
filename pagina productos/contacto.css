@@ -1,0 +1,46 @@
+section{
+    background-color: rgb(61, 158, 244);
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-items [type="submit"]{
+    background: cyan;
+    padding: 20px;
+    width: 250px;
+    border:none;
+    text-align: center;
+}
+form{
+    background-color: rgb(34, 131, 216);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 75%;
+}
+.input-items input{
+    color: white;
+    background-color: rgb(34, 131, 216);
+    border-radius: 2px;
+    border:none;
+    border-bottom: 3px solid cyan;
+    margin: 8px;
+    padding: 4px;
+    width: 250px;
+    height: 25px;
+    outline:none;
+}
+textarea{
+    color: white;
+    background-color: rgb(34, 131, 216);
+    width: 250px;
+    height: 100px;
+    resize: none;
+    outline: none;
+    border:none;
+    border-bottom: 2px solid cyan;
+}

@@ -1,0 +1,52 @@
+.info-flex{
+    padding-left: 0px;
+    margin: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    transform: translateY(-14px);
+}
+.info img{
+    transform: translate(5px,10px);
+    height: 20px;
+    width: 50px;
+}
+.source{
+    height: 20px;
+    width: 70px;
+}
+.info .source:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.info-flex li{
+    display: inline-block;
+    margin: 0 12px;
+}
+nav{
+    background-color: black;
+    height: 160px;
+    text-align: center;
+}
+nav h1{
+    transform: translateY(25px);
+    font-size: 40px;
+}
+
+nav input{
+    transform: translateY(50px);
+    width: 50%;
+    height: 30px;
+    outline: none;
+}
+.info-flex a{
+    color: black;
+    text-decoration: none;
+}
+.info-flex a:hover{
+    color: gray;
+    cursor: pointer;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
+}
